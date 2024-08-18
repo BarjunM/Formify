@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+video {
+  border: 1px solid #ccc;
+}
