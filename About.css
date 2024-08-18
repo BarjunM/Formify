@@ -1,0 +1,25 @@
+.about{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+
+}
+.about-left{
+    flex-basis: 40%;
+}
+.about-right h3{
+    color: orangered;
+}
+.about-right h2{
+    color: orangered;
+}
+.about-right{
+    flex-basis: 56%;
+}
+.about-img{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 70px;
+}

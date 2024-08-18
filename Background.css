@@ -1,0 +1,43 @@
+.background{
+    max-height: 700px;
+    width: 100%;
+    float: left;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: none;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+.background2{
+    height: 700px;
+    width: 100%;
+    float: left;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: none;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+.background3{
+    height: 700px;
+    width: 100%;
+    float: left;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: none;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to {opacity: 1;}
+}
+.fade-in{
+    animation: fadeIn 500ms ease-in-out;
+}
